@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530217899930",
+    "project_id": "sabari-3bbe6",
+    "storage_bucket": "sabari-3bbe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530217899930:android:390cecb54d810084844c23",
+        "android_client_info": {
+          "package_name": "com.sor.shabri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA20dVtidnNjeK4qHBcKatgxgiHPJhiHRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530217899930:android:c48f329fb8d3ed28844c23",
+        "android_client_info": {
+          "package_name": "com.sor.shabriconfig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA20dVtidnNjeK4qHBcKatgxgiHPJhiHRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
