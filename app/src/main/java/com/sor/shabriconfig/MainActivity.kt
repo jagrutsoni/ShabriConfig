@@ -89,8 +89,8 @@ class MainActivity : ComponentActivity() {
                 val captionHash = hashMapOf(
                     EXCEL_ID_KEY to id,
                     EXCEL_TEXT_KEY to jsonObject.getString(EXCEL_TEXT_KEY).trimStart().trimEnd(),
-                    EXCEL_AUTHOR_KEY to jsonObject.getString(EXCEL_AUTHOR_KEY),
-                    EXCEL_LANGUAGE_KEY to jsonObject.getString(EXCEL_LANGUAGE_KEY),
+                    EXCEL_AUTHOR_KEY to jsonObject.getString(EXCEL_AUTHOR_KEY).trimStart().trimEnd(),
+                    EXCEL_LANGUAGE_KEY to jsonObject.getString(EXCEL_LANGUAGE_KEY).trimStart().trimEnd(),
                     EXCEL_COPIED_KEY to jsonObject.getInt(EXCEL_COPIED_KEY),
                     EXCEL_HASHTAGS_KEY to newArray
                     // EXCEL_HASHTAG_DOC_KEY to newArray
